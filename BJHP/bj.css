@@ -1,0 +1,49 @@
+body {
+   max-width: 1080px;
+   margin: 0 auto 0 auto;
+   font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+ 
+header {
+   display: flex;
+   justify-content: space-between;
+ }
+
+header >img{
+   width: 15%;
+}
+
+/* 下に合わせたいのだけどどうするんだ */
+#nav-pc {
+   font-size: 14px;
+ }
+ 
+ #nav-pc ul {
+   display: flex;
+   padding-left: 0;
+ }
+ 
+ #nav-pc li {
+   list-style: none;
+ }
+ 
+ #nav-pc a {
+   text-decoration: none;
+   margin-left: 20px;
+   color: #0d0d0d;
+ }
+ 
+ #nav-pc a:hover {
+   text-decoration: underline;
+   color: orangered;
+ }
+
+ #nav-pc a:visited {
+   color: orangered;
+ }
+/* 再生を押さずとも動画が流れるようにしたい */
+
+@media screen and(max-width:1024px) {
+   
+   
+}
